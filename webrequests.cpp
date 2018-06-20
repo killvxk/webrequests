@@ -47,6 +47,7 @@ using namespace std;
 #pragma comment(lib, "Cryptui.lib")
 #pragma comment(lib, "Ws2_32.lib")
 
+//https://stackoverflow.com/a/17708801
 std::string url_encode(const std::string &value) {
 	ostringstream escaped;
 	escaped.fill('0');
